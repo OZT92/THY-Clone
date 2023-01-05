@@ -1,0 +1,181 @@
+.panel-title {
+  font-size: 1.4rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.radio-btns {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 36%;
+  color: #232b38;
+}
+
+.check-box {
+  margin-right: 0.5rem;
+  visibility: hidden;
+}
+
+.check-box-text::before {
+  content: "";
+  border-radius: 50%;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #00548a;
+  background-color: #fff;
+  position: absolute;
+  top: 0;
+  left: -0.5rem;
+  box-shadow: none;
+}
+
+.radio-btns-right:hover {
+  border-bottom: 3px solid #e81932;
+  margin-bottom: -0.3rem;
+  cursor: pointer;
+}
+
+.radio-btns-right {
+  position: relative;
+}
+
+.odul-bilet::before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border: 2px solid #c3cbd7;
+  border-radius: 3px;
+  box-shadow: none;
+  position: absolute;
+  left: -0.5rem;
+  top: 0;
+}
+
+.radio-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.flight-finder-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.2rem;
+}
+
+.ff-item {
+  background-color: #f8f9fa;
+  flex: 1;
+  height: 6.6rem;
+  cursor: pointer;
+}
+
+.ff-item > h6 {
+  font-size: 1.1rem;
+  color: #647281;
+  font-weight: 700;
+}
+
+.ff-item > h5 {
+  font-size: 1.1rem;
+  color: #232b38;
+  font-weight: 700;
+}
+
+.ff-item > h4 {
+  font-size: 1.6rem;
+  color: #232b38;
+  line-height: 1.1;
+  padding: 0.3rem 0 0.5rem;
+  font-weight: 700;
+}
+
+.ff-date {
+  display: flex;
+  align-items: center;
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #647281;
+  cursor: pointer;
+}
+
+.ff-date-icon {
+  font-size: 2.4rem;
+  color: #647281;
+  margin-left: 1rem;
+  margin-right: 2rem;
+}
+
+.ff-btn {
+  background-color: #e81932;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+.ff-btn:hover {
+  background-color: #ff3545;
+  cursor: pointer;
+}
+
+.ff-btn-icon {
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+
+input,
+ainput:focus,
+input:active {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.input-field {
+  height: 6rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-left: 1rem;
+  border-radius: 0.3rem;
+  /* width: 100%; */
+}
+
+.change-icon {
+  font-size: 2.5rem;
+  position: absolute;
+  left: 23rem;
+  top: 10rem;
+  color: rgb(94, 94, 94);
+}
+
+.change-icon:hover {
+  color: rgb(63, 62, 62);
+  cursor: pointer;
+}
+
+.onceki-aramalar {
+  margin-top: 3rem;
+  display: inline-block;
+}
+
+.onceki-aramalar > p {
+  color: #232b38;
+  font-size: 1.4rem;
+  font-weight: 700;
+  border-bottom: 3px solid transparent;
+}
+
+.onceki-aramalar > p:hover {
+  border-bottom: 3px solid #e81932;
+  cursor: pointer;
+}

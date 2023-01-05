@@ -1,0 +1,59 @@
+.checkin {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hotel-finder-container {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+.hf-item {
+  background-color: #f8f9fa;
+  flex: 2;
+  height: 6.6rem;
+  cursor: pointer;
+  display: block;
+}
+
+.hf-item .input-field {
+  width: 95%;
+}
+
+.hf-btn {
+  background-color: #e81932;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+.hf-btn:hover {
+  background-color: #ff3545;
+  cursor: pointer;
+}
+
+.hf-btn-icon {
+  font-size: 3rem;
+}
+
+.sss {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #e81932;
+}
+
+.sss > p:hover {
+  cursor: pointer;
+  color: #bb0e1c;
+}

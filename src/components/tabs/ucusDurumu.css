@@ -1,0 +1,71 @@
+.ucus-durumu {
+  display: flex;
+}
+
+.ucus-durumu-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  margin-top: 4rem;
+}
+
+.ud-item {
+  background-color: #f8f9fa;
+  flex: 1;
+  height: 6.6rem;
+  cursor: pointer;
+  flex-basis: auto;
+}
+
+.ud-item > h6 {
+  font-size: 1.1rem;
+  color: #647281;
+  font-weight: 700;
+}
+
+.ud-item > h5 {
+  font-size: 1.1rem;
+  color: #232b38;
+  font-weight: 700;
+}
+
+.ud-item > h4 {
+  font-size: 1.6rem;
+  color: #232b38;
+  line-height: 1.1;
+  padding: 0.3rem 0 0.5rem;
+  font-weight: 700;
+  margin-left: 5rem;
+}
+
+.ud-btn {
+  background-color: #e81932;
+  color: #fff;
+  font-size: 1.3rem;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+}
+.ud-btn:hover {
+  background-color: #ff3545;
+  cursor: pointer;
+}
+
+.ud-btn-icon {
+  font-size: 3rem;
+}
+
+.ud-item-date {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fa-icon-date {
+  margin-left: 4rem;
+  font-size: 1.1rem;
+}

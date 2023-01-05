@@ -1,0 +1,25 @@
+.middle-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.middle-wrapper > p {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 1.3rem;
+  font-weight: 300;
+}
+
+.middle-wrapper > img {
+  margin-left: 4rem;
+  margin-right: 1.5rem;
+}
+
+.middle-wrapper > p > span {
+  color: #e81932;
+}
+
+.middle-wrapper > p > span:hover {
+  cursor: pointer;
+}
